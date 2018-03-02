@@ -1,0 +1,59 @@
+body {
+    background: url(../images/misc/body-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #e6f0fe;
+    margin: 0px;
+}
+
+main {
+    width: 100%;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    width: 100%;
+    opacity: .4;
+    padding: 12px 0 0 12px;
+}
+
+#logo {
+    background-color: antiquewhite;
+    opacity: 1;
+}
+
+#new-media {
+    height: 700px;
+    background-color: beige;
+}
+
+#editorial {
+    height: 1000px;
+    background-color: bisque;
+}
+
+.gallery {
+    padding: 0 auto;
+}
+
+.gallery img {
+    width: 23%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .25s;
+    margin: 0 8px 8px 0;
+    vertical-align: middle;
+}
+
+@media (max-width:800px) {
+    .gallery {display: grid;}
+    .gallery img {width: 97%;}
+}
